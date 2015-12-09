@@ -3,10 +3,10 @@
 from sys import argv
 import copy
 import random
-from numpy import ndenumerate
+#from numpy import ndenumerate
 import os
 from time import sleep
-import figures
+#import figures
 
 alivecells=0
 
