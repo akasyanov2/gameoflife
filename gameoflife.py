@@ -3,21 +3,20 @@
 from sys import argv
 import copy
 import random
-#from numpy import ndenumerate
 import os
 from time import sleep
-#import figures
 
 alivecells=0
 
-x=45
-y=45
+x=35
+y=35
 timeout=.035
 target = open('lastrun', 'w')
 
-chars='x        '
+chars='x  '
 
 currentstate= [ [ random.choice(chars) for i in range(y) ] for j in range(x) ]
+
 target.write('[\n');
 for item in currentstate:
   target.write("%s,\n" % item)
